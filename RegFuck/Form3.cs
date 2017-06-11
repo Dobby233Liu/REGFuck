@@ -12,7 +12,7 @@ namespace RegFuck
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            label3.Text = "Seed: " + Form4.seed;
+            label3.Text = "种子: " + Form4.seed;
         }
     }
 }
