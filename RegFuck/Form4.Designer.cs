@@ -176,7 +176,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(154, 24);
             this.label7.TabIndex = 4;
-            this.label7.Text = "delet chance";
+            this.label7.Text = "删除修改";
             // 
             // label8
             // 
@@ -198,7 +198,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(135, 40);
             this.button2.TabIndex = 6;
-            this.button2.Text = "K";
+            this.button2.Text = "OK";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -210,7 +210,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(58, 24);
             this.label9.TabIndex = 4;
-            this.label9.Text = "SEED";
+            this.label9.Text = "种子";
             // 
             // textBox1
             // 
@@ -227,13 +227,13 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("宋体", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.button1.Location = new System.Drawing.Point(615, 379);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 32);
             this.button1.TabIndex = 6;
-            this.button1.Text = "random";
+            this.button1.Text = "随机";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -272,12 +272,12 @@
             this.Controls.Add(this.trackBar2);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.pictureBox1);
-            this.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form4";
-            this.Text = "settingz";
+            this.Text = "设置";
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
